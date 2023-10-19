@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color for the body */
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #ff6f61;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Style the header title */
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    background-color: #333;
+    text-align: center;
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+/* Style the navigation menu items */
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6f61;
+}
+
+/* Style the main content section */
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Style food item boxes */
+.food-item {
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.food-item img {
+    max-width: 100%;
+}
+
+.food-item h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.food-item p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.food-item:hover {
+    transform: scale(1.05);
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
